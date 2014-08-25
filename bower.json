@@ -1,0 +1,31 @@
+{
+  "name": "snowball",
+  "version": "0.0.0",
+  "authors": [
+    "Zach Bussey <zacharybussey@gmail.com>"
+  ],
+  "description": "Debt payoff calculator",
+  "keywords": [
+    "snowball",
+    "debt",
+    "payoff",
+    "loans"
+  ],
+  "license": "MIT",
+  "homepage": "zachdevelop.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jasmine-sinon": "~0.4.0",
+    "jasmine": "~2.0.3",
+    "react": "~0.11.1",
+    "superagent": "~0.18.2",
+    "jasmine-react": "https://github.com/tommyh/jasmine-react.git"
+  }
+}

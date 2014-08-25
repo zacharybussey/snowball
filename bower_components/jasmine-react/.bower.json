@@ -1,0 +1,13 @@
+{
+  "name": "jasmine-react",
+  "homepage": "https://github.com/tommyh/jasmine-react",
+  "_release": "e24c004c92",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "e24c004c92a21a196b62a44b1c3cfcfb2de9157f"
+  },
+  "_source": "https://github.com/tommyh/jasmine-react.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/tommyh/jasmine-react.git"
+}
