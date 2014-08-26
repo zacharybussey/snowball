@@ -1,7 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/img/favicon.ico">
+
     <title>Snowball</title>
+
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+
     <script src="../bower_components/react/react.js"></script>
     <script src="../bower_components/react/JSXTransformer.js"></script>
     <script src="../bower_components/sinonjs/sinon.js"></script>
@@ -9,12 +19,34 @@
   </head>
 
   <body>
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Snowball</h3>
+              <ul class="nav masthead-nav">
+                <li>Home</li>
+                <li>Options</li>
+                <li>About</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1 class="cover-heading">Big text.</h1>
+
+          </div>
+        </div>
+      </div>
+    </div>
 
   </body>
 
   <script type="text/jsx">
   /** @jsx React.DOM */
 
-    React.renderComponent(<Banner />, document.querySelector('body'));
+    //React.renderComponent(<Banner />, document.querySelector('body'));
   </script>
 </html>
