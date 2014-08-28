@@ -1,0 +1,31 @@
+{
+  "name": "snowball",
+  "version": "0.0.0",
+  "description": " Debt program",
+  "main": "karma.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "karma": "^0.12.22",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-coverage": "^0.2.6",
+    "karma-jasmine": "^0.1.5",
+    "karma-react-jsx-preprocessor": "^0.1.1",
+    "karma-react-preprocessor": "^0.0.2",
+    "react-tools": "^0.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Zach Bussey",
+  "license": "ISC"
+}
