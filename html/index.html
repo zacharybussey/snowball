@@ -1,52 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="/img/favicon.ico">
 
-    <title>Snowball</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="/img/favicon.ico">
 
-    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+  <title>Snowball</title>
 
-    <script src="../bower_components/react/react.js"></script>
-    <script src="../bower_components/react/JSXTransformer.js"></script>
-    <script src="../bower_components/sinonjs/sinon.js"></script>
-    <script type="text/jsx" src="../src/elements/Banner.jsx"></script>
-  </head>
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
 
-  <body>
-    <div class="site-wrapper">
-      <div class="site-wrapper-inner">
-        <div class="cover-container">
+  <script src="../bower_components/react/react.js"></script>
+  <script src="../bower_components/react/JSXTransformer.js"></script>
+  <script src="../bower_components/sinonjs/sinon.js"></script>
+  <script type="text/jsx" src="../src/elements/Banner.jsx"></script>
+</head>
 
-          <div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">Snowball</h3>
-              <ul class="nav masthead-nav">
-                <li>Home</li>
-                <li>Options</li>
-                <li>About</li>
-              </ul>
-            </div>
-          </div>
+<body>
+  <div class="container">
 
-          <div class="inner cover">
-            <h1 class="cover-heading">Big text.</h1>
-
-          </div>
+    <div class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target ".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand">Snowball Calculator</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a>Link</a></li>
+            <li><a>Other</a></li>
+            <li><a>Links</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a>Default</a></li>
+            <li><a>1</a></li>
+            <li><a>2</a></li>
+          </ul>
         </div>
       </div>
     </div>
 
-  </body>
+    <div class="jumbotron">
+      <h1>Snowball Chart</h1>
+      <p>Chart goes here</p>
+    </div>
 
-  <script type="text/jsx">
+  </div>
+
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+<script type="text/jsx">
   /** @jsx React.DOM */
 
-    //React.renderComponent(<Banner />, document.querySelector('body'));
-  </script>
+  //React.renderComponent(<Banner />, document.querySelector('body'));
+</script>
+
 </html>
